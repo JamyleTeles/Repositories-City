@@ -1,0 +1,88 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body{
+   background-color: #0d1117; 
+   color: white;
+   margin: 3rem
+}
+
+.title{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.about-me{
+    border: 3px solid #30363d; 
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    border-radius:6px;
+    margin: 20px auto;
+    width: 30rem;
+    height: 35rem;
+    background-color: #30363d;
+}
+
+.about-me #photo{
+    padding-top: 2rem;
+    width: 15rem;
+}
+
+.about-me #user{
+    font-size: 20px;
+}
+
+.meus-repositorios{
+    margin: 3rem auto;
+}
+
+.repositories{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 3rem;
+    border-radius:1rem;
+    margin: 1rem;
+    border: 1px solid #30363d;
+}
+
+.repositories div{
+display: flex;
+justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #8b949e
+}
+
+.repositories div .date-create{
+    display:flex;
+    align-items: center;
+    color: #8b949e;
+    border: 1px solid #8b949e;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.repositories div .date-create .title-repository{
+    color:#47a6f0;
+}
+
+.repositories div .language .circle{
+    background-color: #47a6f0;
+    display: inline-block;
+    width: 12px;
+    height:12px;
+    margin-right: 5px;
+    border: 1px solid #30363d;
+    border-radius: 50%;
+}
